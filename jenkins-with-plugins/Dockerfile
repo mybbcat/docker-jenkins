@@ -1,3 +1,3 @@
-FROM registry.aliyuncs.com/acs-sample/jenkins:base
+FROM mybbcat/jenkins:2.60.1
 COPY plugins.txt /usr/share/jenkins/plugins.txt
 RUN /usr/local/bin/plugins.sh /usr/share/jenkins/plugins.txt
